@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h2{
+    background-color:rgb(0, 128, 117);
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    color: lawngreen;
+    text-shadow: 0 0 5px black;
+    padding: 10px;
+}
+
+
+
+@import url("https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/milligram/1.4.1/milligram.css");
+
+* {
+    margin: 10px;
+}
+
+main {
+    background-color: rgba(242, 242, 221, 0.264);
+    padding: 10px;
+
+}
+
+
+hr {
+    border-top: 2px solid orange !important;
+}
+
+.div-cotizar {
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+
+
+button.button.button-outline {
+    font-size: x-large !important;
+}
+
+button.button.button-outline:active {
+    background: pink !important;
+}
+
+
+table {
+    width: 70%;
+    text-align: justify;
+    background-color: beige;
+}
+
+button {
+    background-color: lawngreen;
+}
+
+
+
+p{
+    font-weight: bold;
+}
+
+.funcion{
+        text-align: center;
+        color: black;
+        font-weight: bold;
+        font-size: 25px
+}
+.funcion1{
+    text-align: center;
+}
+.funcion2{
+    text-align: center;
+}
+
+.pie{
+    width: 100%;
+    background-color: black;
+    font-family: 'Poppins', sans-serif;
+    color: lawngreen;
+    text-align: center;
+    font-size: 18px;
+    padding: 20px;
+}
+
+@media only screen and (min-width: 480px){
+    .galeria{
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: repeat(4, 200);
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width:1023px){
+    .galeria{
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: repeat(3, 200);
+    }
+
+@media only screen and (min-width: 1024px){
+    .galeria{
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 200px 200px;
+    }
+}
+}
